@@ -22,7 +22,7 @@ This project is a data scraper for [NT Times](https://https://www.nytimes.com/).
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/nytimes-scraper.git
+git clone git@github.com:garzo94/RPA-Challenge---Fresh-news.git
 ```
 2. Create a virtual environment:
 ```

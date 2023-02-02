@@ -36,5 +36,5 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-2. The scraped data will be stored in a CSV file named scraped_data.xlsx in the project directory, and images will be downloaded in images folder.
+2. The scraped data will be stored in a CSV file named scraped_data.xlsx in the project directory, and images will be downloaded to the images folder.
 

@@ -1,12 +1,14 @@
-from selenium import webdriver
+from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-import time
-import pandas as pd
-import re
+from selenium import webdriver
 from datetime import datetime, timedelta, date
+import pandas as pd
 import requests
+import time
+import re
+
+
 
 class ScrapedData:
     def __init__(self,search_phrase, section, num_months):

@@ -1,16 +1,17 @@
-from model import ScrapedData
+from model import ScrapedData, MoneyChecker, TitleDescriptionConcatenator, PhraseCounter
 
 def main():
     filename = 'scraped_data.xlsx'
+    counter = PhraseCounter()
+    checker = MoneyChecker()
+    concatenator = TitleDescriptionConcatenator()
 
     # Initialize the ScrapedData model
-    scraped_data = ScrapedData(search_phrase = "Economy", section = "Business", num_months = 2)
+    scraped_data = ScrapedData(search_phrase = "Economy", section = "Business", num_months = 2, counter = counter, checker = checker, concatenator = concatenator)
 
     # Scrape data from the website
-    try:
-        scraped_data.scrape()
-    except Exception as e:
-        print("An unexpected error occurred:", e)
+    scraped_data.scrape()
+   
 
     # Save the scraped data to an Excel file
     scraped_data.save_to_excel(filename)

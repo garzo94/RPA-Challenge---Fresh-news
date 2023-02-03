@@ -1,7 +1,7 @@
 # NY Times Data Scraper
 ### Introduction
 
-This project is a data scraper for [NT Times](https://https://www.nytimes.com/). The project is built using the Model-View (MC) architecture, with a virtual environment for dependencies management.
+This project is a data scraper for [NT Times](https://https://www.nytimes.com/). The project is built using the Model-Controller (MC) architecture, with a virtual environment for dependencies management.
 
 ![This is an image](https://github.com/garzo94/RPA-Challenge---Fresh-news/blob/main/ezgif.com-gif-maker.gif)
 
